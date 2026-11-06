@@ -1,0 +1,59 @@
+
+==================================================
+Date: 2026-11-06 21:21:26.609149
+Question: What is RAG?
+Rejected Lesson:
+
+RAG is a type of smartphone made by Apple.
+It does not retrieve any external information.
+RAG guarantees that every AI answer is always correct.
+
+Evaluator Feedback:
+STATUS: REJECTED
+
+ACCURACY: FAIL
+
+TRUST: FAIL
+
+SIMPLICITY: PASS
+
+MISTAKES:
+1. The generated lesson claims that "RAG is a type of smartphone made by Apple," which directly contradicts the trusted information stating that RAG is Retrieval-Augmented Generation (an approach combining information retrieval with AI text generation).
+2. The lesson claims "It does not retrieve any external information," which contradicts the trusted fact that a RAG system retrieves relevant information from an external knowledge source.
+3. The lesson claims "RAG guarantees that every AI answer is always correct," which directly contradicts the trusted limitation that "RAG does not guarantee that every generated answer is correct."
+4. The lesson introduces unsupported hallucinated information about Apple smartphones that is entirely absent from the trusted knowledge base.
+
+CORRECTIONS:
+To correct the mistakes, rewrite the lesson so that it strictly adheres to the trusted knowledge base:
+1. State that RAG stands for Retrieval-Augmented Generation, which combines information retrieval with AI text generation.
+2. State that a RAG system retrieves relevant information from an external knowledge source to help the language model generate answers.
+3. Correct the final statement to reflect the trusted limitations, noting that while RAG helps provide relevant information and reduces unsupported answers, it does not guarantee that every generated answer is correct.
+
+==================================================
+Attempt: 1
+Rejected Lesson:
+
+RAG is a smartphone made by Apple.
+RAG never retrieves external information.
+RAG guarantees every answer is correct.
+
+Evaluator Feedback:
+STATUS: REJECTED
+
+ACCURACY: FAIL
+
+TRUST: FAIL
+
+SIMPLICITY: PASS
+
+MISTAKES:
+1. The lesson states that "RAG is a smartphone made by Apple," which completely contradicts the trusted information (RAG stands for Retrieval-Augmented Generation, an approach that combines information retrieval with AI text generation).
+2. The lesson states that "RAG never retrieves external information," which directly contradicts the trusted information (RAG retrieves relevant information from an external knowledge source).
+3. The lesson states that "RAG guarantees every answer is correct," which contradicts the trusted information (RAG does not guarantee that every generated answer is correct, and limitations include incorrect source documents and poor retrieval).
+4. All statements in the generated lesson introduce false information not supported by the trusted knowledge base.
+
+CORRECTIONS:
+1. Replace the incorrect definitions with facts from the trusted knowledge base. 
+2. State the true definition: RAG (Retrieval-Augmented Generation) is an approach that combines information retrieval with AI text generation.
+3. State that RAG retrieves relevant information from an external knowledge source.
+4. State the limitations accurately: RAG does not guarantee that every generated answer is correct.

@@ -1,0 +1,14 @@
+# Environment variables and secret API keys
+.env
+.env.*
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+_pycache_/
+*.pyc
+
+# ChromaDB local database
+chroma_db/
